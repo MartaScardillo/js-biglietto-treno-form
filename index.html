@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biglietto treno ancora tanto insicuro</title>
-    <link rel="stylesheet" href="./css/app.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
     <div>
-        <label for="fullName">Nome Cognome</label>
-        <input name="fullName" id="fullName" type="text">
-        <label for="km">Km da percorrere</label>
-        <input name="km" id="km" type="text">
-        <label for="ageSelect">Fascia d'età</label>
-        <select name="ageSelect" id="ageSelect">
-            <option value="minor">Minorenne</option>
-            <option value="adult">Maggiorenne</option>
-            <option value="elder">Over 65</option>
-        </select>
+      <label for="fullName">Nome Cognome</label>
+      <input name="fullName" id="fullName" type="text" />
+      <label for="km">Km da percorrere</label>
+      <input name="km" id="km" type="text" />
+      <label for="ageSelect">Fascia d'età</label>
+      <select name="ageSelect" id="ageSelect">
+        <option value="minor">Minorenne</option>
+        <option value="adult">Maggiorenne</option>
+        <option value="elder">Over 65</option>
+      </select>
     </div>
     <div>
-        <input type="submit" name="generator" id="generator" value="Genera">
-        <input type="button" name="generator" id="generator" value="Annulla">
+      <input
+        type="submit"
+        name="generateButton"
+        id="generateButton"
+        value="Genera"
+      />
+      <input
+        type="button"
+        name="cancelButton"
+        id="cancelButton"
+        value="Annulla"
+      />
     </div>
     <script src="./js/app.js"></script>
-</body>
+  </body>
 </html>
