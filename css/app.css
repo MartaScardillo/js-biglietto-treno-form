@@ -1,7 +1,18 @@
-.debug * {
-    border: 1px solid black;
+
+
+body {
+  background-image: url(../img/polar-express.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
-.bg-gray {
-    background-color: rgb(160, 160, 160);
+body > div {
+  height: 100%;
+  background-color: rgba(183, 180, 180, 0.47);
 }
+
+.bg-gold {
+    background-color: #BF9941;
+}
+
